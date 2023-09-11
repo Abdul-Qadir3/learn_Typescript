@@ -1,23 +1,23 @@
-console.log("abdul qadir");
+console.log("abdul qadir"); // it will log the string "Abdul Qadir" to the console.
 // variable creation
 let myName = "Abdul Qadir"; // myName is variable name
-// let, cont and var is used in variable creation
+// let, const and var is used in variable creation
 const myCity ="ISB";
-// let and const are block scope
-// block is {} curly braces we cannot access or modify the block
-// scope is between the braces
-// variable initialize with let can be change
-// const cannot be changed
-// var is a global scope
+// "let" and "const" are block scope
+// "block" is "{}" curly braces we cannot access or modify the block from outside
+// "scope" is between the "braces"
+// variable initialize with "let" can be 'change'
+// "const" cannot be "changed"
+// "var" is a "global scope"
 var age ="25"
 if(true){
-    let myname="abdu";
+    let myname="abdul";
     myname= 'abdul qadir' // let can be changed or updated
 
-    const age= 24 // const cannot be changed
-    var age ="25"
+    const age= 24 
+    age ="25" // const cannot be changed
 }
-console.log(myname)
+console.log(myname) //cannot access from the block to outside
 
 let para= "Template literals, also known as template strings,"+myName+"are a feature in TypeScript that allows you to create strings with embedded expressions. Template literals are enclosed by backticks \n" // concatenation
 console.log(para); 
