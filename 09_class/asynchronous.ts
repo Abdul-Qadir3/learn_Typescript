@@ -6,7 +6,7 @@ console.log("This is task 1");
 
 setTimeout(()=> {
     console.log("This is task 2 getting data from server");
-}, 3000);
+}, 3000);// this is a async function that will be executed after some time
 
 console.log("This is task 3");
 console.log("This is task 4");
