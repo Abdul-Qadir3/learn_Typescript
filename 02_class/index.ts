@@ -19,17 +19,17 @@ if(true){
 }
 console.log(myname) //cannot access from the block to outside
 
-let para= "Template literals, also known as template strings,"+myName+"are a feature in TypeScript that allows you to create strings with embedded expressions. Template literals are enclosed by backticks \n" // concatenation
+let para= "hi, there my name is ,"+myName+"and I belong to a wonderfull place on the face of earth that is popular for its beauty \n" // concatenation using +myName+
 console.log(para); 
 // for number contatenation
 let num1 = 12;
 let num2 = 40;
-let result = num1+num2;
+let result = num1+num2; //concatenation
 console.log("the result of  addition is " + result);
 //for string concatenation
 let var1 = "abdul";
 let var2 ="qadir";
-let result2 = var1+var2;
+let result2 = var1+var2; // concatenation
 console.log(result2);
 //arithmetical operators
 num2 += 5 //OR num2 = num2 +5 (Add)
@@ -37,8 +37,8 @@ num1 -= 5 //OR num1 = num1 -5   (Subtract)
 //comparison operators
 let num=20
 let num3=20
-console.log(num==num3) // to check value
-console.log(num===num3) // to check datatypes
+console.log(num==num3) // to check value // loose equality operator "(==)" 
+console.log(num===num3) // to check same value and the same data type // strict equality operator "(===)"
 let num4=23
 let num5=20
 console.log(num4!=num5) // not equal to number
