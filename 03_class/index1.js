@@ -1,19 +1,20 @@
-var balance = 80;
-var minBalance = 85;
-var maxBalance = 75;
-var result = balance + minBalance + maxBalance;
+"use strict";
+let balance = 80;
+let minBalance = 85;
+let maxBalance = 75;
+let result = balance + minBalance + maxBalance;
 function creditScore() {
     if (result > 250 && result <= 300) {
-        console.log("A+");
+        return "A+";
     }
     else if (result > 220 && result <= 250) {
-        console.log("B");
+        return "B";
     }
     else if (result > 180 && result <= 220) {
-        console.log("C");
+        return "C";
     }
     else if (result > 150 && result < 180) {
-        console.log("D");
+        return "D";
     }
 }
 console.log(creditScore);
