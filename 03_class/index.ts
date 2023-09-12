@@ -32,7 +32,7 @@ printMessage(); // "printMessage();:" This line calls (invokes) the "printMessag
 function greeting(userName: string) {
     console.log(`Hi, ${userName} this is greeting funciton`);
 }
-let result = greeting("Usman");
+// let result = greeting("Usman"); //block scope variable cannot be redeclared
 
 //3- function returning some values
 function greetingwithreturnValue(username:string){ // "function greeting(username: string) {:" This line defines a TypeScript function called "greeting".
@@ -47,4 +47,3 @@ function greetingwithreturnValue(username:string){ // "function greeting(usernam
 let greetingValues= greeting("Abdul") // "let greetingValues = greeting("Abdul");" : This line declares a variable named "greetingValues" and assigns it the result of calling the "greeting" function with the argument "Abdul". This line effectively invokes the "greeting function", passing in "Abdul" as the username "argument".
 
 console.log(greetingValues); // "console.log(greetingValues);" line simply displays the value stored in the "greetingValues" variable to the console
-
