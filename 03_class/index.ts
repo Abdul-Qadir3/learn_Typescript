@@ -12,6 +12,12 @@ console.log(`Hello,! `, nameName);// "console.log():" This line uses the console
 
 // "Hello, ${nameName}!:" This is a "template literal (a string enclosed in backticks ` `)" that allows you to "embed" the value of the nameName variable into the string using "${}". This way, you can create a "dynamic message" that includes the user's input.
 
+// Functions
+//types
+// 1- no input no return
+// 2- pass input but no return
+// 3- pass input and return output
+
 //1.	no input no return
 
 function printMessage(){ //"function printMessage() {:" This line declares a TypeScript function named "printMessage".
@@ -22,8 +28,14 @@ function printMessage(){ //"function printMessage() {:" This line declares a Typ
 }
 printMessage(); // "printMessage();:" This line calls (invokes) the "printMessage function". When this line is executed, it triggers the code inside the "printMessage function to run."
 
-//2.	pass input but no returns
-function greeting(username:string){ // "function greeting(username: string) {:" This line defines a TypeScript function called "greeting".
+//2- pass input but no returns
+function greeting(userName: string) {
+    console.log(`Hi, ${userName} this is greeting funciton`);
+}
+let result = greeting("Usman");
+
+//3- function returning some values
+function greetingwithreturnValue(username:string){ // "function greeting(username: string) {:" This line defines a TypeScript function called "greeting".
 
     let val = `hi, ${username} this is a function`;// "let val = hi, ${username} this is a function;" Inside the greeting function, this line declares a variable named "val".
 
