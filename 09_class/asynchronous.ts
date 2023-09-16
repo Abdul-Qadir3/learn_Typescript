@@ -202,7 +202,7 @@ enum matchResults {
   }
   
   let result1 = buildName("Bob"); //ok
-  let result2 = buildName("Bob", "Adams", "Sr."); //error, too many parameters
+//   let result2 = buildName("Bob", "Adams", "Sr."); //error, too many parameters
   var result3 = buildName("Bob", "Adams"); //also ok
   
   // ============================================================
@@ -224,7 +224,7 @@ enum matchResults {
   }
   
   let results1 = buildName("Bob"); //works correctly because last parameter is optional
-  let results2 = buildName("Bob", "Adams", "Sr."); //error, too many parameters
+//   let results2 = buildName("Bob", "Adams", "Sr."); //error, too many parameters
   let results3 = buildName("Bob", "Adams"); //correct
   
   //anonymous function type with defult parameters
