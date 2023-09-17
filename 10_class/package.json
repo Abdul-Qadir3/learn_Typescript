@@ -1,0 +1,12 @@
+{
+  "name": "10_class",
+  "version": "1.0.0",
+  "description": "These are tasks that depend on a condition. You want to perform different asynchronous actions based on whether the condition is true or false.\r ### Callback\r > *To pass a function in another function as a **parameter**. Sequence wise task*\r Functions that are dependent on each other or one another\r Callbacks are a fundamental concept in JavaScript and TypeScript for handling asynchronous operations.\r Callbacks are functions that you pass as arguments to other functions, and they are executed when a particular operation is completed. In TypeScript, callbacks can be used to work with asynchronous code in a clean and organized manner.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
