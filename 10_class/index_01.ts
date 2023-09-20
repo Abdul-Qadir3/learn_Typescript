@@ -1,4 +1,4 @@
-function carMaintenance(cb: (text: string) => void) {
+function carMaintenance1(cb: (text: string) => void) {
     // Step 1: Log that you're leaving your car at the workshop at 9.
     console.log("I leave my car at 9 in the workshop");
 
@@ -13,7 +13,7 @@ function carMaintenance(cb: (text: string) => void) {
 }
 
 // Step 5: Define a function `pickDress` that takes a callback parameter.
-function pickDress(callback: (text: string) => void) {
+function pickDress1(callback: (text: string) => void) {
     // Step 6: Implement the logic for picking a dress (not shown in your code).
     // This function is currently empty and should be filled with your dress-picking logic.
 }
