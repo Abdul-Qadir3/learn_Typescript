@@ -1,4 +1,4 @@
-## deploying a dummy JavaScript project to npm step by step with dummy content
+## Deploying a dummy JavaScript project to npm step by step with dummy content
 
 ### Step 1: Create Your Dummy Project
 
