@@ -1,5 +1,5 @@
 "use strict";
-function carMaintenance(cb) {
+function carMaintenance1(cb) {
     // Step 1: Log that you're leaving your car at the workshop at 9.
     console.log("I leave my car at 9 in the workshop");
     // Step 2: Simulate a delay of 2 seconds (2000 milliseconds) to mimic car repair.
@@ -11,7 +11,7 @@ function carMaintenance(cb) {
     }, 2000);
 }
 // Step 5: Define a function `pickDress` that takes a callback parameter.
-function pickDress(callback) {
+function pickDress1(callback) {
     // Step 6: Implement the logic for picking a dress (not shown in your code).
     // This function is currently empty and should be filled with your dress-picking logic.
 }
