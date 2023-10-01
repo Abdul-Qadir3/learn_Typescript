@@ -10,7 +10,11 @@ const age2 = 25; // type infer //"const" keyword is used to declare variables th
 
 var address ="ISB"; // the var keyword is used to declare variables that have function scope or global scope, depending on where they are declared
 // Unlike const, variables declared with var can be reassigned.
+const userName ="abdul";
 
+function fname(){
+    console.log(userName)
+}
 console.log("Abdul Qadir"); // code doesn't directly use the user object that was defined earlier.
 // it will log the string "Abdul Qadir" to the console.
 // to log the name property of the user object, you should modify the console.log() line like this:
