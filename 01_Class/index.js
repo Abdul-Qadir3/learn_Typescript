@@ -11,6 +11,15 @@ console.log("Value of string ".concat(myString, "\n ")); // used instead of conc
 // Operator (type of)
 var typeOf = 23;
 console.log(typeof typeOf);
+//Union type compound types
+var myvar; // Union type compound types
+myvar = 24;
+console.log(typeof myvar);
+myvar = "str";
+console.log(typeof myvar);
+myvar = true;
+console.log(typeof myvar);
+//Camel case
 var univerDepart; // variable with camel case //type annotation
 var age2 = 25; // type infer //"const" keyword is used to declare variables that cannot be reassigned after their initial value is set
 var address = "ISB"; // the var keyword is used to declare variables that have function scope or global scope, depending on where they are declared

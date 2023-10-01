@@ -15,6 +15,17 @@ console.log(`Value of string ${myString}\n `);// used instead of concate
 let typeOf =23;
 console.log(typeof typeOf)
 
+//Union type compound types
+let myvar: number | string | boolean |null; // Union type compound types
+myvar =24;
+console.log(typeof myvar)
+
+myvar ="str";
+console.log(typeof myvar)
+
+myvar =true
+console.log(typeof myvar)
+
 //Camel case
 let univerDepart:string; // variable with camel case //type annotation
 const age2 = 25; // type infer //"const" keyword is used to declare variables that cannot be reassigned after their initial value is set
