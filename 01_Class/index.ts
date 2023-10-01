@@ -8,8 +8,14 @@ let user:any={name: "abdul qadir", age: 10}
 // Template Litrals
 let myString= "Mystring"
 //with back ticks and a dollar sign($) with curly braces and the variable name in the curly braces
-console.log(`Value of string ${myString}\n `)// used instead of concate 
+console.log(`Value of string ${myString}\n `);// used instead of concate 
 
+// Operator (type of)
+
+let typeOf =23;
+console.log(typeof typeOf)
+
+//Camel case
 let univerDepart:string; // variable with camel case //type annotation
 const age2 = 25; // type infer //"const" keyword is used to declare variables that cannot be reassigned after their initial value is set
 
