@@ -5,6 +5,11 @@ let user:any={name: "abdul qadir", age: 10}
 // age: The property age is assigned the numeric value 10
 //  the variable user holds an object with `name` and `age` properties.
 
+// Template Litrals
+let myString= "Mystring"
+//with back ticks and a dollar sign($) with curly braces and the variable name in the curly braces
+console.log(`Value of string ${myString}\n `)// used instead of concate 
+
 let univerDepart:string; // variable with camel case //type annotation
 const age2 = 25; // type infer //"const" keyword is used to declare variables that cannot be reassigned after their initial value is set
 
