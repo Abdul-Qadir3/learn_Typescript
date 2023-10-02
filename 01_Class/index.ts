@@ -10,10 +10,6 @@ let myString= "Mystring"
 //with back ticks and a dollar sign($) with curly braces and the variable name in the curly braces
 console.log(`Value of string ${myString}\n `);// used instead of concate 
 
-// Operator (type of)
-
-let typeOf =23;
-console.log(typeof typeOf)
 
 //Union type compound types
 let myvar: number | string | boolean |null; // Union type compound types
