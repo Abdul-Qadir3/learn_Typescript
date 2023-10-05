@@ -2,7 +2,7 @@
 let balance = 80;
 let minBalance = 85;
 let maxBalance = 75;
-let result = balance + minBalance + maxBalance;
+const result = balance + minBalance + maxBalance;
 function creditScore() {
     if (result > 250 && result <= 300) {
         return "A+";

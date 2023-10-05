@@ -19,3 +19,5 @@ console.log(n>=5 || n<10);//true
 console.log(n>5 || n<10);//true
 console.log(!(n<10));//false
 console.log(!(n>10));//True
+
+// for both logical and comparative operator both will return result in boolean
