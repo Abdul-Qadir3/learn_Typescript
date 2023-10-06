@@ -22,3 +22,13 @@ let z2 = (age, name) => {
     return `My name is ${name} and my age is ${age}`;
 };
 console.log(z2(26, "Abdul Qadir"));
+//for optional prarmeter
+let z3 = (param1, param2, param3 = 10) => //by giving default value to the parameter typescript takes it as optional
+ {
+    console.log(`${param1} ${param2} ${param3}`);
+    return `${param1} ${param2} ${param3}`;
+};
+let xyz = z3(2, "hello", 3);
+let xy = z3(2);
+console.log(xy);
+console.log(xyz);
