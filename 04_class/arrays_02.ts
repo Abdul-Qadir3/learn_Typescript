@@ -35,6 +35,36 @@ console.log(copyArray)
 copyArray =array2.copyWithin(1,0)
 console.log(copyArray)
 
-//direct assign in new variable
-let oldvalues= array2
+//direct assign in new variable to copy
+let oldvalues= copyArray
 console.log(oldvalues)
+
+//object: we can define prperties and function in objects
+let obj = {//curly braces used in the object
+    "name": "abdul", //property and value
+    "age": 23,  //property and value
+    "isMarried": true,  //property and value
+
+    generaterandomNum : function(from:number ,to:number){
+        let x= 8*Math.random()*10;
+        console.log(x);
+        return x;
+    },
+
+    printage:function(myAge:number){
+        console.log(myAge)
+    }
+};
+
+
+console.log(obj.printage(12))
+
+console.log(obj.generaterandomNum(4,6))
+
+console.log(obj.name);  //property always return a value
+
+console.log(obj.age);  //property always return a value
+
+console.log(obj.isMarried);  //property always return a value
+
+// Math.random(): Math is an object and random is a method

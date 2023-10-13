@@ -24,3 +24,26 @@ copyArray = array2.copyWithin(-1, 0);
 console.log(copyArray);
 copyArray = array2.copyWithin(1, 0);
 console.log(copyArray);
+//direct assign in new variable to copy
+let oldvalues = copyArray;
+console.log(oldvalues);
+//object: we can define prperties and function in objects
+let obj = {
+    "name": "abdul",
+    "age": 23,
+    "isMarried": true,
+    generaterandomNum: function (from, to) {
+        let x = 8 * Math.random() * 10;
+        console.log(x);
+        return x;
+    },
+    printage: function (myAge) {
+        console.log(myAge);
+    }
+};
+console.log(obj.printage(12));
+console.log(obj.generaterandomNum(4, 6));
+console.log(obj.name); //property always return a value
+console.log(obj.age); //property always return a value
+console.log(obj.isMarried); //property always return a value
+// Math.random(): Math is an object and random is a method
