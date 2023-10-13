@@ -3,6 +3,10 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 //For loop
 // for( initialization; condition; iteration)
+// Initialization: "for (let i = 0; ......"    It's a variable that keeps track of the current state of the loop.
+// Condition: "for (let i = 0; i < 5; ..." This is a Boolean expression that is evaluated before each iteration of the loop. If the condition is "true", the loop "continues"; if it's "false", the loop terminates.
+//Iteration:"for (let i = 0; i < 5; i++) {Loop body}" This is where you specify how the loop control variable should change after each iteration. It's typically an increment or decrement operation.
+//During each iteration of the loop, the condition (i < 5) is checked. If it's true, the loop body is executed. Afterward, the iteration (i++) is executed, and then the condition is checked again. This process continues until the condition becomes false, at which point the loop terminates.
 let groceryItems = ["Bread", "cooking oil", "egg", "milk", "veg", "fruits"];
 for (let item = 0; item < groceryItems.length; item++) {
     console.log(`item no, ${item} which is ${groceryItems[item]}`);
