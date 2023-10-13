@@ -34,3 +34,7 @@ console.log(copyArray)
 
 copyArray =array2.copyWithin(1,0)
 console.log(copyArray)
+
+//direct assign in new variable
+let oldvalues= array2
+console.log(oldvalues)
