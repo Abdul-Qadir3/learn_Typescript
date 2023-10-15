@@ -26,3 +26,8 @@ import approved from "./modulesExp"; //we can call using a changed the name of t
 for(let i=0;i<approved.length;i++){
     console.log(`Student ID is ${approved[i].id} and the name is ${approved[i].name}`)
 }
+
+import {studentObj} from "./modulesExp"
+for(let i=0;i<studentObj.length;i++){ //if not used default in export and just written export
+    console.log(`Student ID is ${studentObj[i].id} and the name is ${studentObj[i].name}`)
+}

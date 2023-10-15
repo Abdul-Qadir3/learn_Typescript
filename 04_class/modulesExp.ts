@@ -1,6 +1,6 @@
 // modules are used for code reuseable and also import export different junks of code file to different code files
 
-let studentObj = [ //objects of array
+export let studentObj = [ //objects of array
     {id:1 , name:"abdul"}, //object
     {id:2 , name:"kamran"}, //object
     {id:3 , name:"ali"}, //object

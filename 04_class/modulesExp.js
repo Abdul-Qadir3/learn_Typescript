@@ -1,8 +1,8 @@
 "use strict";
 // modules are used for code reuseable and also import export different junks of code file to different code files
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.approvedstd = void 0;
-let studentObj = [
+exports.approvedstd = exports.studentObj = void 0;
+exports.studentObj = [
     { id: 1, name: "abdul" },
     { id: 2, name: "kamran" },
     { id: 3, name: "ali" },
